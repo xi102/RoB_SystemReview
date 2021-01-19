@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:background-size="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Index_Of_SystemReviewer</title>
+    <link href="/static/css/upload.css" type="text/css" rel="stylesheet">
+</head>
+
+<body class="body">
+{#<form id="form1" method="post" action="/uploading" enctype="multipart/form-data">#}
+{#    <div>#}
+{#        <input id="File1" type="file" name="myfile" multiple="multiple"/>  <!--后台代码中获取文件是通过form的name来标识的-->#}
+{#        <input type="submit">提交</input>#}
+{#    </div>#}
+{#</form>#}
+<br><h1 align="center" style="margin-top: 3%;font-size: 40px">欢迎使用自动化偏倚风险评估系统</h1><br><br>
+<form id="form1" method="post" action="/upload" enctype="multipart/form-data" target="upload_frame" style="margin-top: 2%">
+    <div class="file" align="center" style="height: 80px;width: 100%">
+        <input id="File1" type="file" name="myfile" multiple="multiple" style="font-size: 22px"/>  <!--后台代码中获取文件是通过form的name来标识的-->
+{#        <input id="File1" type="file" name="myfile" multiple="multiple" style="display: none;"/>  <!--后台代码中获取文件是通过form的name来标识的-->#}
+{#        <input type="button" value="选择文件" onclick="document.getElementById('File1').click();" style="height: 80px;">#}
+        <input type="submit" value="上传" style="font-size: 22px">
+    </div>
+</form>
+{#<div style="width: 50%; margin-left: 25%">#}
+{#    <img src="/static/img/004.png">#}
+{#</div>#}
+</body>
+</html>

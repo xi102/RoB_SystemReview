@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ResultPage_Of_SystemReviewer </title>
+{#    <link href="/static/css/upload.css" type="text/css" rel="stylesheet">#}
+</head>
+<body>
+<h3 style="margin-left: 40px">文档类预测结果：</h3><br>
+{#{{ doc_pre_result }}<br>#}
+{#<table border="1" align="center">#}
+{#    <tr>#}
+{#        <th style="width: 100px" align="center">偏倚风险类型</th>#}
+{#        {% for key in doc_pre_result['RSG'] %}#}
+{#        <th align="center">{{ key }}</th>#}
+{#        {% endfor %}#}
+{#    </tr>#}
+{#    {% for key02 in doc_pre_result %}#}
+{#    <tr>#}
+{#        <td align="center">{{ key02 }}</td>#}
+{#        {% for key03 in doc_pre_result[key02] %}#}
+{#        <th>{{ doc_pre_result[key02][key03] }}</th>#}
+{#            {% if doc_pre_result[key02][key03]==1.0 %}#}
+{#            <td bgcolor="#adff2f" align="center"> Low</td>#}
+{#            {% elif doc_pre_result[key02][key03]==0.0 %}#}
+{#            <td bgcolor="red" align="center">High/Unclear</td>#}
+{#            {% endif %}#}
+{#        {% endfor %}#}
+{#    </tr>#}
+{#    {% endfor %}#}
+{#</table>#}
+<table border="1" align="center">
+    <tr>
+        <th style="width: 100px" align="center">文档名</th>
+        {% for key in doc_pre_result %}
+        <th align="center">{{ key }}</th>
+        {% endfor %}
+    </tr>
+    {% for key02 in doc_pre_result['RSG'] %}
+    <tr>
+        <td align="center">{{ key02 }}</td>
+        {% for key03 in doc_pre_result %}
+{#        <th>{{ doc_pre_result[key02][key03] }}</th>#}
+            {% if doc_pre_result[key03][key02]==1.0 %}
+            <td bgcolor="#adff2f" align="center"> Low</td>
+            {% elif doc_pre_result[key03][key02]==0.0 %}
+            <td bgcolor="red" align="center">High/Unclear</td>
+            {% endif %}
+        {% endfor %}
+    </tr>
+    {% endfor %}
+</table>
+<br><h3 style="margin-left: 40px">句子类预测结果：</h3><br>
+{#{{ sen_pre_result }}<br>#}
+{% for key in sen_pre_result %}
+<div style="width: 90%;height: 40px;margin-left:5%;font-size: 20px;" >{{ key }}:</div>
+<table border="1" style="width: 80%" align="center">
+    <tr>
+        <th style="width: 122px">偏倚风险类型(Bias)</th>
+        <th style="width: 130px">评估结果(Judgement)</th>
+        <th>偏倚域(Support for judgement)</th>
+    </tr>
+    {% for key02 in sen_pre_result[key] %}
+    <tr>
+        <td align="center">{{ key02 }}</td>
+        {% if doc_pre_result[key02][key]==1.0 %}
+        <td align="center">Low</td>
+        {% elif doc_pre_result[key02][key]==0.0 %}
+        <td align="center">High/Unclear</td>
+        {% endif %}
+{#        <th>{{ doc_pre_result[key02][key] }}</th>#}
+        <td>{{ sen_pre_result[key][key02] }}</td>
+    </tr>
+    {% endfor %}
+</table>
+    <br>
+{% endfor %}
+</body>
+</html>
