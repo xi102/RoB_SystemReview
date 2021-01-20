@@ -7,21 +7,38 @@
 </head>
 
 <body class="body">
-{#<form id="form1" method="post" action="/uploading" enctype="multipart/form-data">#}
-{#    <div>#}
-{#        <input id="File1" type="file" name="myfile" multiple="multiple"/>  <!--后台代码中获取文件是通过form的name来标识的-->#}
-{#        <input type="submit">提交</input>#}
-{#    </div>#}
-{#</form>#}
-<br><h1 align="center" style="margin-top: 3%;font-size: 40px">欢迎使用自动化偏倚风险评估系统</h1><br><br>
-<form id="form1" method="post" action="/upload" enctype="multipart/form-data" target="upload_frame" style="margin-top: 2%">
+<br>
+<h1 align="center" style="margin-top: 3%;font-size: 40px">欢迎使用自动化偏倚风险评估系统</h1><br><br>
+<form id="form1" method="post" action="/upload" enctype="multipart/form-data" target="upload_frame"
+      style="margin-top: 2%">
     <div class="file" align="center" style="height: 80px;width: 100%">
-        <input id="File1" type="file" name="myfile" multiple="multiple" style="font-size: 22px"/>  <!--后台代码中获取文件是通过form的name来标识的-->
-{#        <input id="File1" type="file" name="myfile" multiple="multiple" style="display: none;"/>  <!--后台代码中获取文件是通过form的name来标识的-->#}
-{#        <input type="button" value="选择文件" onclick="document.getElementById('File1').click();" style="height: 80px;">#}
-        <input type="submit" value="上传" style="font-size: 22px">
+        <input id="File1" type="file" name="myfile" multiple="multiple" style="font-size: 22px"/>
+        <!--后台代码中获取文件是通过form的name来标识的-->
+        <input type="submit" value="上传" style="font-size: 22px"><br>
+        <div align="right" style="margin-right: 30px">
+            <a href="http://www.pdfdo.com/pdf-remove-restriction.aspx">PDF解密工具</a><br>
+            <a href="https://lightpdf.com/zh/pdf-to-txt">pdf转换工具</a><br>
+            <a href="https://lightpdf.com/zh/ocr">OCR识别工具</a>
+        </div>
     </div>
 </form>
+<fieldset class="fieldset">
+    <font color="yellow">注意1：</font>
+    <font color="blue">
+        上传文件必须是pdf格式，并且文件必须未加密，否则系统将报错。另外请尽量确保上传的PDF文件为非扫形式的文件，否则系统将无法进行格式转换。
+        如果上传文件中包含加密、加水印...的文件，请先使用系统推荐的pdf解密工具进行解密，然后再上传。如果上传文件中包含扫描形式的PDF文件，请
+        先使用系统推荐的OCR工具进行格式转换（尽量转换成txt），然后再上传。
+    </font><br>
+    <font color="yellow">注意2：</font>
+    <font color="blue">
+        点击“上传”操作后，系统将打开一个新的页面（ResultPage_Of_SystemReviewer）用于显示系统分析的结果，由于PDF转txt的过程相对较慢，所以
+        新打开的结果显示界面将等待响应一段时间（大概1分钟左右），在此过程中请勿重复文件上传操作，否则将会报错。
+    </font>
+</fieldset>
+<div class="copyright">
+    Copyright:2019 SystemReviewer.当前显示版本V0.2
+    <br>UESTC生命科学与技术学院 数字健康工程实验室版权所有
+</div>
 {#<div style="width: 50%; margin-left: 25%">#}
 {#    <img src="/static/img/004.png">#}
 {#</div>#}

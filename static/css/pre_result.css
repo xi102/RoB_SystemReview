@@ -1,0 +1,4 @@
+/*.table-doc table td{border:1px solid blue}*/
+.table-doc table th{background-color: deepskyblue;min-width: 25px}
+.table-sen table th{background-color: deepskyblue}
+.table-doc table td{min-width: 25px}
