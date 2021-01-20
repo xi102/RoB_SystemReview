@@ -1,41 +1,11 @@
-# from dataProcess.pdfProcess import *
-# from dataProcess.predict import *
-
-#####测试代码，将写入到后台代码部分（pdf转txt）
-# pdf_Base_path = "D:/Projects/PythonProjects/NLP_Projects/RoB_SystemReview/data/Upload_pdf"
-# txt_Base_Path="D:/Projects/PythonProjects/NLP_Projects/RoB_SystemReview/data/Processed_txt"
-# pdfTotxt(pdf_Base_path,txt_Base_Path)
-#
-# # ######测试代码，将写入后台程序（txt文本处理）
-# inBasePath='D:/Projects/PythonProjects/NLP_Projects/RoB_SystemReview/data/Processed_txt'
-# outBasePath='D:/Projects/PythonProjects/NLP_Projects/RoB_SystemReview/data/Txt_pre'
-# txtTo_Pre_Data(inBasePath,outBasePath)
-#
-# #######测试代码，将写入到后台代码部分（文档预测）
-# txtFilePath='D:/Projects/PythonProjects/NLP_Projects/RoB_SystemReview/data/Txt_pre'
-# modelBasePath='D:/Projects/PythonProjects/NLP_Projects/RoB_SystemReview/data/model'
-# doc_pre_result=docPrediction(txtFilePath,modelBasePath)
-# print(len(doc_pre_result))
-# for i in range(len(doc_pre_result)):
-#     print(doc_pre_result[i])
-#
-# # #######测试代码，将写入到后台代码部分（句子预测）
-# txtFilePath='D:/Projects/PythonProjects/NLP_Projects/RoB_SystemReview/data/Txt_pre'
-# modelBasePath='D:/Projects/PythonProjects/NLP_Projects/RoB_SystemReview/data/model'
-# sen_pre_result=senPrediction(txtFilePath,modelBasePath)
-# print(len(sen_pre_result))
-# for i in range(len(sen_pre_result)):
-#     print(sen_pre_result[i])
-
 import joblib
 import os
-
 
 ######定义文档评估预测函数
 def docPrediction(txtFilePath, modelBasePath):
     model_name_list = ['RSG', 'AC', 'BOP', 'BOA', 'IOD', 'SR']
     ##加载词向量模型
-    tfv = joblib.load("D:/Projects/PythonProjects/NLP_Projects/RoB_SystemReview/data/model/TF-IDF_vectors_model.m")
+    tfv = joblib.load("./data/model/TF-IDF_vectors_model.m")
     txt_Name_List = os.listdir(txtFilePath)  # list类型，每个元素为对应的txt文件名
     data = []
     for name in txt_Name_List:
@@ -58,7 +28,7 @@ def docPrediction(txtFilePath, modelBasePath):
 def senPrediction(txtFilePath, modelBasePath):
     model_name_list = ['RSG', 'AC', 'BOP', 'BOA', 'IOD', 'SR']
     ##加载词向量模型
-    tfv = joblib.load("D:/Projects/PythonProjects/NLP_Projects/RoB_SystemReview/data/model/TF-IDF_vectors_model.m")
+    tfv = joblib.load("./data/model/TF-IDF_vectors_model.m")
     txt_Name_List = os.listdir(txtFilePath)  # list类型，每个元素为对应的txt文件名
     dic = {}
     for name in txt_Name_List:
@@ -72,18 +42,42 @@ def senPrediction(txtFilePath, modelBasePath):
         for modelName in model_name_list:
             category_pre_result = []
             model = joblib.load(modelBasePath + '/' + 'sentence_model_' + modelName + '.m')
-            pre_label = model.predict(X)
-            for i in range(len(pre_label)):
-                if pre_label[i] == 1:
-                    category_pre_result.append(data[i])
-            dic01[modelName] = category_pre_result
-        dic[name] = dic01
-    return dic
+            pre_label = model.predict_proba(X)
+            # print(pre_label)
+        #     for i in range(len(pre_label)):
+        #         if pre_label[i] == 1:
+        #             category_pre_result.append(data[i])
+        #     dic01[modelName] = category_pre_result
+        # dic[name] = dic01
+    return pre_label
+
+import heapq
+data=[]
+result=[]
+f=open('.._V2.0/data/Txt_pre/Chiu S, 2016.txt', 'r', encoding='UTF-8')
+for line in f.readlines():
+    data.append(line)
+print(len(data))
+tfv = joblib.load(".._V2.0/data/model/TF-IDF_vectors_model.m")
+X = tfv.transform(data)
+model=joblib.load('.._V2.0/dataProcess/sentence_model_RSG.m')
+pre_label=model.predict_proba(X)
+for i in range(len(pre_label)):
+    result.append(pre_label[i][1])
+print(len(result))
+re1=list(map(result.index,heapq.nlargest(3,result)))
+print(re1)
+for j in re1:
+    print(result[j])
+    print(data[j])
+
+
+
 
 
 #########测试代码，将写入到后台代码部分
-# txtFilePath='D:/Projects/PythonProjects/NLP_Projects/RoB_SystemReview/data/Txt_pre'
-# modelBasePath='D:/Projects/PythonProjects/NLP_Projects/RoB_SystemReview/data/model'
+# txtFilePath='../data/Txt_pre'
+# modelBasePath='./data/model'
 # doc_pre_result=docPrediction(txtFilePath,modelBasePath)
 # # print(len(doc_pre_result))
 # print(doc_pre_result)
@@ -99,8 +93,8 @@ def senPrediction(txtFilePath, modelBasePath):
 #     print()
 
 #######测试代码，将写入到后台代码部分
-# txtFilePath='D:/Projects/PythonProjects/NLP_Projects/RoB_SystemReview/data/Txt_pre'
-# modelBasePath='D:/Projects/PythonProjects/NLP_Projects/RoB_SystemReview/data/model'
+# txtFilePath='../data/Txt_pre'
+# modelBasePath='./data/model'
 # sen_pre_result=senPrediction(txtFilePath,modelBasePath)
 # print(len(sen_pre_result))
 # print(sen_pre_result)

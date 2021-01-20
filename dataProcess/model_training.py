@@ -43,13 +43,14 @@ def train_classifier_model(train_file,context,category):
     #            ngram_range=(1, 2), use_idf=1, smooth_idf=1, sublinear_tf=1, stop_words='english')
     # tfv.fit(train_data)
     ###加载已经训练好的tfidf词向量模型对训练数据进行向量化操作
-    tfv=joblib.load('D:/Projects/PythonProjects/NLP_Projects/RoB_SystemReview/data/model/TF-IDF_vectors_model.m')
+    tfv=joblib.load('./data/model/TF-IDF_vectors_model.m')
     X_all=tfv.transform(train_data)
     # 训练svm分类模型
-    svclf = svm.LinearSVC(loss='hinge', C=1.0,max_iter=10000)
+    # svclf = svm.LinearSVC(loss='hinge', C=1.0,max_iter=10000)
+    svclf = svm.SVC(kernel='linear',probability=True, C=1.0, max_iter=10000)
     svclf.fit(X_all, y_train)
     # #模型保存
-    modelpath = "sentence_model_" +"SR"+ ".m"
+    modelpath = "sentence_model_" +"RSG"+ ".m"
     joblib.dump(svclf, modelpath)
 
 # train_file='D:/Projects/PythonProjects/NLP_Projects/RiskOfBias/data/document_classification/RoB_and_txt03.csv'
@@ -57,7 +58,7 @@ def train_classifier_model(train_file,context,category):
 # category='IOD_level'
 # train_classifier_model(train_file,context,category)
 
-# train_file='D:\Projects\PythonProjects\\NLP_Projects\RiskOfBias\data\sentence_classification\SR_quote_sentence.csv'
+# train_file='D:\Projects\PythonProjects\\NLP_Projects\RiskOfBias\data\sentence_classification\RSG_quote_sentence.csv'
 # context='sentence'
 # category='label'
 # train_classifier_model(train_file,context,category)

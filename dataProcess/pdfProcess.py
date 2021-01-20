@@ -64,8 +64,8 @@ def pdfTotxt(PdfBasePath, TxtBasePath):
 
 
 #####测试代码，将写入到后台代码部分
-# pdf_Base_path = "D:/Projects/PythonProjects/NLP_Projects/RoB_SystemReview/data/Upload_pdf"
-# txt_Base_Path="D:/Projects/PythonProjects/NLP_Projects/RoB_SystemReview/data/Processed_txt"
+# pdf_Base_path = "../data/Upload_pdf"
+# txt_Base_Path="../data/Processed_txt"
 # pdfTotxt(pdf_Base_path,txt_Base_Path)
 
 pattern = r"""(?x)                   # set flag to allow verbose regexps 
@@ -100,6 +100,6 @@ def txtTo_Pre_Data(inBasePath, outBasePath):
         f1.close()
 
 # ######测试代码，将写入后台程序
-# inBasePath='D:/Projects/PythonProjects/NLP_Projects/RoB_SystemReview/data/Processed_txt'
-# outBasePath='D:/Projects/PythonProjects/NLP_Projects/RoB_SystemReview/data/Txt_pre'
+# inBasePath='../data/Processed_txt'
+# outBasePath='../data/Txt_pre'
 # txtTo_Pre_Data(inBasePath,outBasePath)

@@ -32,3 +32,4 @@ build
 .vscode
 data/model/*.m
 *.m
+*.pyc
