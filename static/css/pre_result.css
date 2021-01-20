@@ -2,3 +2,42 @@
 .table-doc table th{background-color: deepskyblue;min-width: 25px}
 .table-sen table th{background-color: deepskyblue}
 .table-doc table td{min-width: 25px}
+
+legend {
+    position: relative;
+    text-align: center;
+    padding: 0 50px;
+}
+
+legend:before, legend:after {
+    content: '';
+    display: table;
+    position: absolute;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background: #4fbaba;
+}
+
+legend:before {
+    left: 0;
+}
+
+legend:after {
+    right: 0;
+}
+.copyright{
+	margin-top: 20px;
+    height: 40px;
+	line-height: 150%;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	background-color: darkslategrey;
+	color: #fff;
+	font-family: Arial;
+	font-size: 14px;
+	letter-spacing: 1px;
+}

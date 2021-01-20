@@ -1,0 +1,37 @@
+{% extends "form_base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+{% block title %}Register_Of_SystemReviewer{% endblock %}
+{#{% block page_content %}#}
+{#    <div align="center" style="width: 30%">#}
+{#        <div class="page-header">#}
+{#            <h1>注册</h1>#}
+{#        </div>#}
+{#        <form action="/register" method="post">#}
+{#            {{ wtf.quick_form(form) }}#}
+{##}
+{#        </form>#}
+{#    </div>#}
+{#{% endblock %}#}
+
+{% block page_content %}
+    <link href="/static/css/upload.css" type="text/css" rel="stylesheet">
+    <body background="/static/img/003.jpg">
+    <div style="width: 100%">
+        <div style="width: 60%;margin-left: 20%">
+            <div align="center">
+                <h1>欢迎注册自动化偏倚风险评估系统</h1>
+            </div>
+        </div>
+        <br>
+        <div style="width: 26%;margin-left: 37%">
+            <form action="/register" method="post">
+            {{ wtf.quick_form(form) }}
+        </form>
+        </div>
+    </div>
+    <div class="copyright">
+        Copyright:2019 SystemReviewer.当前显示版本V0.2.2
+        <br>UESTC生命科学与技术学院 数字健康工程实验室版权所有
+    </div>
+    </body>
+{% endblock %}

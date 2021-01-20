@@ -1,0 +1,28 @@
+{% extends "form_base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+{% block title %}Login_Of_SystemReviewer{% endblock %}
+
+
+{% block page_content %}
+    <link href="/static/css/upload.css" type="text/css" rel="stylesheet">
+    <body background="/static/img/003.jpg">
+    <div style="width: 100%">
+        <div style="width: 60%;margin-left: 20%">
+            <div align="center">
+                <h1>欢迎登录自动化偏倚风险评估系统</h1>
+            </div>
+        </div>
+        <br>
+        <div style="width: 26%;margin-left: 37%">
+            <form action="/login" method="post">
+                {{ wtf.quick_form(form) }}&nbsp;&nbsp;
+                <p style="font-size: 16px">新用户？<a href="{{ url_for('register') }}">点击注册</a>.</p>
+            </form>
+        </div>
+    </div>
+    <div class="copyright">
+        Copyright:2019 SystemReviewer.当前显示版本V2.2
+        <br>UESTC生命科学与技术学院 数字健康工程实验室版权所有
+    </div>
+    </body>
+{% endblock %}
