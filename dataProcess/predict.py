@@ -3,6 +3,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer as TFIV
 # from sklearn.externals import joblib
 import joblib
 import os,shutil
+import heapq
 '''
     预测过程中对输入数据进行向量化操作时必须保证调用的向量化模型与训练分类模型时所采用的向量化模型一致，否则将会报错
     ValueError: X has 585818 features per sample; expecting 585480
@@ -12,7 +13,7 @@ import os,shutil
 def docPrediction(txtFilePath,modelBasePath):
     model_name_list = ['RSG', 'AC', 'BOP', 'BOA', 'IOD', 'SR']
     ##加载词向量模型
-    tfv = joblib.load("./data/model/TF-IDF_vectors_model.m")
+    tfv = joblib.load(".._V2.1/data/model/TF-IDF_vectors_model.m")
     txt_Name_List = os.listdir(txtFilePath)  # list类型，每个元素为对应的txt文件名
     data = []
     for name in txt_Name_List:
@@ -31,8 +32,8 @@ def docPrediction(txtFilePath,modelBasePath):
     return pre_result
 
 # #########测试代码，将写入到后台代码部分
-# txtFilePath='../data/Txt_pre'
-# modelBasePath='./data/model'
+# txtFilePath='.._V2.1/data/Txt_pre'
+# modelBasePath='.._V2.1/data/model'
 # doc_pre_result=docPrediction(txtFilePath,modelBasePath)
 # print(len(doc_pre_result))
 # print(doc_pre_result)
@@ -46,7 +47,7 @@ def docPrediction(txtFilePath,modelBasePath):
 def senPrediction(txtFilePath, modelBasePath):
     model_name_list = ['RSG', 'AC', 'BOP', 'BOA', 'IOD', 'SR']
     ##加载词向量模型
-    tfv = joblib.load("./data/model/TF-IDF_vectors_model.m")
+    tfv = joblib.load(".._V2.1/data/model/TF-IDF_vectors_model.m")
     txt_Name_List = os.listdir(txtFilePath)  # list类型，每个元素为对应的txt文件名
     dic = {}
     for name in txt_Name_List:
@@ -59,24 +60,28 @@ def senPrediction(txtFilePath, modelBasePath):
         dic01 = {}
         for modelName in model_name_list:
             category_pre_result = []
+            result = []
             model = joblib.load(modelBasePath + '/' + 'sentence_model_' + modelName + '.m')
-            pre_label = model.predict(X)
+            pre_label = model.predict_proba(X)
             for i in range(len(pre_label)):
-                if pre_label[i] == 1:
-                    category_pre_result.append(data[i])
+                result.append(pre_label[i][1])
+            re1 = list(map(result.index, heapq.nlargest(3, result)))
+            # print(re1)
+            for j in re1:
+                category_pre_result.append(data[j])
             dic01[modelName] = category_pre_result
         dic[name] = dic01
     return dic
 
 
 # data=[]
-# f=open('../data/Txt_pre/Li P, 2010.txt', 'r', encoding='UTF-8')
+# f=open('.._V2.1/data/Txt_pre/Li P, 2010.txt', 'r', encoding='UTF-8')
 # for line in f.readlines():
 #     data.append(line)
 # print(len(data))
-# tfv = joblib.load("./data/model/TF-IDF_vectors_model.m")
+# tfv = joblib.load(".._V2.1/data/model/TF-IDF_vectors_model.m")
 # X = tfv.transform(data)
-# model=joblib.load('./data/model/sentence_model_BOA.m')
+# model=joblib.load('.._V2.1/data/model/sentence_model_BOA.m')
 # pre_label=model.predict(X)
 # print(pre_label)
 # pre_data=list(map(lambda x:[x],pre_label))
@@ -86,8 +91,8 @@ def senPrediction(txtFilePath, modelBasePath):
 #         print(data[i])
 
 # #######测试代码，将写入到后台代码部分
-# txtFilePath='../data/Txt_pre'
-# modelBasePath='./data/model'
+# txtFilePath='.._V2.1/data/Txt_pre'
+# modelBasePath='.._V2.1/data/model'
 # sen_pre_result=senPrediction(txtFilePath,modelBasePath)
 # print(len(sen_pre_result))
 # print(sen_pre_result)
