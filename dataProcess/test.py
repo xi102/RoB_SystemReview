@@ -29,7 +29,7 @@ def docPrediction(txtFilePath, modelBasePath):
 def senPrediction(txtFilePath, modelBasePath):
     model_name_list = ['RSG', 'AC', 'BOP', 'BOA', 'IOD', 'SR']
     ##加载词向量模型
-    tfv = joblib.load(".._V2.1/data/model/TF-IDF_vectors_model.m")
+    tfv = joblib.load("./data/model/TF-IDF_vectors_model.m")
     txt_Name_List = os.listdir(txtFilePath)  # list类型，每个元素为对应的txt文件名
     dic = {}
     for name in txt_Name_List:
@@ -57,13 +57,13 @@ def senPrediction(txtFilePath, modelBasePath):
 
 # data=[]
 # result=[]
-# f=open('..__V2.1/data/Txt_pre/Chiu S, 2016.txt', 'r', encoding='UTF-8')
+# f=open('./data/Txt_pre/Chiu S, 2016.txt', 'r', encoding='UTF-8')
 # for line in f.readlines():
 #     data.append(line)
 # print(len(data))
-# tfv = joblib.load(".._V2.1/data/model/TF-IDF_vectors_model.m")
+# tfv = joblib.load("./data/model/TF-IDF_vectors_model.m")
 # X = tfv.transform(data)
-# model=joblib.load('.._V2.1/dataProcess/sentence_model_RSG.m')
+# model=joblib.load('./dataProcess/sentence_model_RSG.m')
 # pre_label=model.predict_proba(X)
 # for i in range(len(pre_label)):
 #     result.append(pre_label[i][1])
@@ -79,8 +79,8 @@ def senPrediction(txtFilePath, modelBasePath):
 
 
 #########测试代码，将写入到后台代码部分
-# txtFilePath='.._V2.1/data/Txt_pre'
-# modelBasePath='.._V2.1/data/model'
+# txtFilePath='./data/Txt_pre'
+# modelBasePath='./data/model'
 # doc_pre_result=docPrediction(txtFilePath,modelBasePath)
 # # print(len(doc_pre_result))
 # print(doc_pre_result)
@@ -96,8 +96,8 @@ def senPrediction(txtFilePath, modelBasePath):
 #     print()
 
 #######测试代码，将写入到后台代码部分
-# txtFilePath='.._V2.1/data/Txt_pre'
-# modelBasePath='.._V2.1/data/model'
+# txtFilePath='./data/Txt_pre'
+# modelBasePath='./data/model'
 # sen_pre_result=senPrediction(txtFilePath,modelBasePath)
 # print(len(sen_pre_result))
 # # print(sen_pre_result)

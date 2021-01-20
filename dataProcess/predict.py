@@ -13,7 +13,7 @@ import heapq
 def docPrediction(txtFilePath,modelBasePath):
     model_name_list = ['RSG', 'AC', 'BOP', 'BOA', 'IOD', 'SR']
     ##加载词向量模型
-    tfv = joblib.load(".._V2.1/data/model/TF-IDF_vectors_model.m")
+    tfv = joblib.load("./data/model/TF-IDF_vectors_model.m")
     txt_Name_List = os.listdir(txtFilePath)  # list类型，每个元素为对应的txt文件名
     data = []
     for name in txt_Name_List:
@@ -32,8 +32,8 @@ def docPrediction(txtFilePath,modelBasePath):
     return pre_result
 
 # #########测试代码，将写入到后台代码部分
-# txtFilePath='.._V2.1/data/Txt_pre'
-# modelBasePath='.._V2.1/data/model'
+# txtFilePath='./data/Txt_pre'
+# modelBasePath='./data/model'
 # doc_pre_result=docPrediction(txtFilePath,modelBasePath)
 # print(len(doc_pre_result))
 # print(doc_pre_result)
@@ -47,7 +47,7 @@ def docPrediction(txtFilePath,modelBasePath):
 def senPrediction(txtFilePath, modelBasePath):
     model_name_list = ['RSG', 'AC', 'BOP', 'BOA', 'IOD', 'SR']
     ##加载词向量模型
-    tfv = joblib.load(".._V2.1/data/model/TF-IDF_vectors_model.m")
+    tfv = joblib.load("./data/model/TF-IDF_vectors_model.m")
     txt_Name_List = os.listdir(txtFilePath)  # list类型，每个元素为对应的txt文件名
     dic = {}
     for name in txt_Name_List:
@@ -75,13 +75,13 @@ def senPrediction(txtFilePath, modelBasePath):
 
 
 # data=[]
-# f=open('.._V2.1/data/Txt_pre/Li P, 2010.txt', 'r', encoding='UTF-8')
+# f=open('./data/Txt_pre/Li P, 2010.txt', 'r', encoding='UTF-8')
 # for line in f.readlines():
 #     data.append(line)
 # print(len(data))
-# tfv = joblib.load(".._V2.1/data/model/TF-IDF_vectors_model.m")
+# tfv = joblib.load("./data/model/TF-IDF_vectors_model.m")
 # X = tfv.transform(data)
-# model=joblib.load('.._V2.1/data/model/sentence_model_BOA.m')
+# model=joblib.load('./data/model/sentence_model_BOA.m')
 # pre_label=model.predict(X)
 # print(pre_label)
 # pre_data=list(map(lambda x:[x],pre_label))
@@ -91,8 +91,8 @@ def senPrediction(txtFilePath, modelBasePath):
 #         print(data[i])
 
 # #######测试代码，将写入到后台代码部分
-# txtFilePath='.._V2.1/data/Txt_pre'
-# modelBasePath='.._V2.1/data/model'
+# txtFilePath='./data/Txt_pre'
+# modelBasePath='./data/model'
 # sen_pre_result=senPrediction(txtFilePath,modelBasePath)
 # print(len(sen_pre_result))
 # print(sen_pre_result)

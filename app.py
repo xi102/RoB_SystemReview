@@ -48,18 +48,18 @@ def api_upload02():
 @app.route('/pre_result')
 def hello_world():
     #####（pdf转txt）
-    pdf_Base_path = ".._V2.1/data/Upload_pdf"
-    txt_Base_Path = ".._V2.1/data/Processed_txt"
+    pdf_Base_path = "./data/Upload_pdf"
+    txt_Base_Path = "./data/Processed_txt"
     pdfTotxt(pdf_Base_path, txt_Base_Path)
 
     # ######（txt文本处理）
-    inBasePath = '.._V2.1/data/Processed_txt'
-    outBasePath = '.._V2.1/data/Txt_pre'
+    inBasePath = './data/Processed_txt'
+    outBasePath = './data/Txt_pre'
     txtTo_Pre_Data(inBasePath, outBasePath)
 
     #######（文档预测）
-    txtFilePath = '.._V2.1/data/Txt_pre'
-    modelBasePath = '.._V2.1/data/model'
+    txtFilePath = './data/Txt_pre'
+    modelBasePath = './data/model'
     doc_pre_result = docPrediction(txtFilePath, modelBasePath)
     for key in doc_pre_result:
         print(key, ":", end=" ")
@@ -68,8 +68,8 @@ def hello_world():
         print()
 
     # #######（句子预测）
-    txtFilePath = '.._V2.1/data/Txt_pre'
-    modelBasePath = '.._V2.1/data/model'
+    txtFilePath = './data/Txt_pre'
+    modelBasePath = './data/model'
     sen_pre_result = senPrediction(txtFilePath, modelBasePath)
     for key in sen_pre_result:
         print(key, ":", end=" ")
