@@ -30,3 +30,5 @@ build
 
 .pycharm
 .vscode
+data/model/*.m
+*.m

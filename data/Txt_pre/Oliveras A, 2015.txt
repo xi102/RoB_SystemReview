@@ -1,0 +1,239 @@
+original article spironolactone versus sympathetic renal denervation treat true resistant hypertension results denervhta study randomized controlled trial anna oliverasa pedro armariob albert clara c laia sans atxer susana va zqueza julio pascuala alejandro de la sierrad see editorial comment page objective renal denervation rdn spironolactone proposed treatment resistant hypertension 
+aimed compare efficacy spironolactone versus rdn patients resistant hypertension 
+methods total patients office sbp least mmhg h sbp least mmhg despite receiving least three full dose antihypertensive drugs one diuretic without aldosterone antagonists randomized receive rdn spironolactone mg add therapy 
+primary endpoint change h sbp months 
+comparisons treatment groups performed using generalized linear models adjusted age sex baseline values 
+results spironolactone effective rdn reducing h sbp h dbp mean baseline adjusted differences two groups mmhg ci p mmhg ci p h sbp h dbp respectively 
+regards changes office blood pressure mean baseline adjusted differences two groups mmhg ci p mmhg ci p office sbp office dbp respectively 
+otherwise decrease estimated glomerular filtration rate greater spironolactone group mean baseline adjusted difference two groups ml min per ci p 
+conclusion conclude spironolactone effective rdn reduce h sbp h dbp patients resistant hypertension 
+therefore spironolactone fourth antihypertensive drug prescribe deemed well tolerated patients resistant hypertension considering rdn 
+keywords ablation hypertension renal denervation resistant hypertension spironolactone abbreviations abpm ambulatory blood pressure monitoring bp blood pressure denervhta denervacio n en hipertensio n arterial egfr estimated glomerular filtration rate hr heart rate rdn renal denervation introduction r esistant hypertension matter big magnitude prevalence estimated around nonadherence inadequate treat ment white coat hypertension discarded also associated cardiovascular risk 
+well known subclinical target organ damage major cardiovascular outcomes mortality occur often patients resistant hypertension controlled hypertension 
+last years advent nondrug minimally invasive treatment sympathetic renal denervation rdn opened great expec tations possible usefulness treatment modality group 
+initial promising results reporting mmhg decreases office sbp months favoured widespread use technique 
+however recently randomized controlled trial symplicity htn failed demonstrate significant blood pressure bp decrease compared sham control group 
+meanwhile several reports begun focus possible important role spironolactone antagonist aldosterone receptors treatment resistant hypertension 
+thus addition spironolactone patients resistant arterial hypertension trial spironolactone add treatment showed decreases journal hypertension ahypertension unit nephrology department hospital universitari del mar barcelona imim hospital del mar medical research institute spanish research network redinren rd binternal medicine department vascular risk area hospital moise broggi consorci sanitari integral cvascular surgery department hospital universitari del mar barcelona imim hospital del mar medical research institute dinternal medicine department hospital mu tua terrassa university barcelona barcelona spain correspondence anna oliveras md phd hospital del mar nephrology depart ment hospital universitari del mar barcelona imim hospital del mar medical research institute passeig mar tim barcelona spain 
+tel fax e mail aoliveras hospitaldelmar cat julio pascual alejandro de la sierra contributed equally work colast authors 
+received april revised may accepted may j hypertens copyright wolters kluwer health inc rights reserved 
+open access article distributed terms creative commons attribution noncommercial noderivatives license permissible download share work provided properly cited 
+work cannot changed way used commercially 
+doi hjh journal hypertension www jhypertension com oliveras et al 
+office sbp mmhg h sbp mmhg significantly higher corresponding reductions respective control groups base line antihypertensive treatment maintained 
+newly results pathway optimum treatment drug resistant hypertension trial shown spironolactone superior drugs add therapy patients resistant hypertension 
+therefore designed randomized clinical trial evaluate efficacy radiofrequency rdn patients resistant hypertension compared addition spironolactone therapeutic regimen baseline 
+methods study design patients denervhta denervacio n en hipertensio n arte rial study prospective multicentre open label randomized controlled trial enrolled patients october april three tertiary care centres specialized hypertension diagnosis management catalonia spain 
+trial approved local institutional ethics committees accordance declaration helsinki written informed consent obtained participants 
+patients aged least years years less office sbp least mmhg h sbp least mmhg despite prescribed therapeutic schedule appropriate com bination three full dose antihypertensive drugs including diuretic maintained last months eligible participate trial 
+patients went renal artery imaging either mri computed tomography ensure anatomical eligibility 
+recruited patients study required suitable anatomy rdn ensure affordable satisfactory technical outcomes 
+therefore patients main renal arteries diameter wide enough mm enable denervation included 
+branches also denervated technically possible according diameter 
+exclusion criteria included inability perform either imaging tests secondary hypertension appro priate tests performed according investigator criteria special focus primary aldosteronism ruled plasmatic aldosterone renin activity determinations stopping interfering medi cations well computed tomography mri estimated glomerular filtration rate egfr less ml min patients currently treatment aldosterone receptor blocker previously received one class drugs drawn lack efficacy adverse effects patients unlikely compliant treatment assessed according haynes sackett test 
+exclusion criteria comprised prerandomization serum potassium level least mmol l pregnant women significant valvular heart disease occurrence major vascular event myocardial infarction unstable angina stroke within months prior study enrolment 
+eligibility confirmation patients random ized ratio either receive sympathetic rdn plus baseline antihypertensive treatment spironolactone plus baseline antihypertensive treatment 
+randomization sequence generated computer stratified centres using randomized blocks small size permu tation treatments within block 
+patients allo cated spironolactone arm drug started morning daily dosage mg forced titration mg month 
+physicians encouraged main tain study participants treatment groups initial antihypertensive drug regimen throughout study although safety reasons protocol provided possibility modifications strictly required 
+open design study allowed us realize decrease bp could higher spironolactone group 
+therefore performed interim analysis confirmed suspicion 
+based analysis inclusion patients definitely discontinued planned results patients randomized analysed presented 
+procedures h abpm registry laboratory tests obtained prerandomization months 
+validated spacelabs issaquah washington usa devices suitable sized cuffs used h abpm 
+monitoring started around working day abp readings obtained min intervals throughout awake asleep periods 
+periods defined according sleep wake times reported patients monitoring day 
+good technical qual ity recording minimum valid readings required h abpm registry evaluable 
+office bp measured outpatient visits baseline weeks months randomization 
+bp assessed min rest sitting position using appropriate sized cuffs h taking antihypertensive drug validated oscillometric semiautomatic devices omron kyoto japan 
+three measurements spaced min averaged determine final office bp values 
+self reported adverse events also recorded visit 
+prespecified protocol serum pot assium levels closely monitored patients received spironolactone concretely weeks started increased dose drug 
+safety reasons extra bp measurements laboratory tests throughout study according medical discretion 
+bp measurements performed trained nurses investigator responsible inclusion patient attended medical outpatient visits recording adverse event making decisions prespecified protocol accordance bp measurements analyses results 
+sympathetic renal denervation rdn procedures performed one single interven tional centre one specifically trained interventionalist alone previous experience system study started 
+single electrode radiofre quency symplicity catheter medtronic galway ireland used procedures performed week www jhypertension com volume number september randomization 
+recommended applications low power w radiofrequency energy delivered renal artery helical pattern distal proximal within main renal artery distance ablation sites near mm 
+procedure patients administered analgo sedation intravenous heparin 
+intraarterial nitroglycerine admin istered renal guide heparinized saline continuously flushed procedure 
+outcomes primary endpoint group comparison mean changes ambulatory h sbp baseline months 
+secondary endpoints included mean changes bp heart rate parameters baseline months assessed ambulatory office measurements 
+safety outcomes acute renal failure doubling serum creatinine dialysis requirement hyperkalaemia serum potassium levels persistently higher mmol l despite implementation lowering potassium measures well mean changes egfr measured using chronic kidney disease epidemiology collaboration ckd epi formula evaluated 
+decrease least baseline egfr considered clinically relevant 
+self reported adverse events baseline months also recorded 
+statistical analyses statistical analyses intention treat population using last observation carried forward 
+ordinary statistical methods performed statistical package spss windows version cary north car olina usa 
+briefly variables following normal distribution summarized mean sd median interquartile range asymmetrically distributed categorical data presented frequencies percentages 
+compari sons baseline characteristics patients one treatment strategy arm another carried unpaired tests continuous normally distributed data nonparametric mann whitney test asymmetrically distributed data x test categorical data 
+group comparisons changes bp heart rate measurements well laboratory parameters performed using general ized linear models adjusted age sex respective baseline values 
+change considered significant two side level less 
+results total patients suspected resistant hypertension basis office bp screened eligibility 
+eleven patients randomized h sbp less mmhg n unsuitable renal artery anatomy n consent withdrawal n 
+patients fulfilled inclusion criteria randomized confirming office sbp least mmhg h sbp least mmhg 
+thirteen patients allocated rdn group patients allocated spironolactone group 
+rdn group two patients undergo procedure refusal 
+one patient spironolactone versus renal denervation spironolactone group also excluded analysis h abpm data fig 
+mean office sbp mmhg mean office dbp mmhg 
+main baseline clinical ambulatory sbp dbp characteristics bp values patients shown table 
+regards baseline characteristics statistically significant differences groups p ns comparisons 
+proportions patients pharmacological drug class shown table 
+one patient spironolactone group withdrawn weeks randomization hyperkalaemia according prespecified safety procedures 
+patient underwent h abpm registry laboratory analyses early final visit included intention treat analyses 
+patients randomized rdn group received median interquartile range renal artery ablations 
+abovementioned rdn con sisted four six applications low power radiofre quency energy delivered renal artery patients received applications total 
+abla tions successfully followed circumferential pattern distal proximal within main renal artery cases distance ablation sites near mm recommended device company according consensus documents 
+h ambulatory blood pressure months mean reduction h sbp significantly superior spironolactone group rdn group 
+adjusting age sex baseline h sbp mean difference two groups mmhg ci mmhg p table observed 
+similarly statistically significant substantial decrease h dbp spironolactone group mean difference two groups mmhg ci p 
+changes bp parameters comparisons groups summarized table 
+similar results observed daytime sbp dbp 
+regards night time bp changes sbp dbp signifi cantly different groups although trend toward higher decrease night time sbp spironolactone group p 
+finally mean baseline adjusted pulse pressure significantly decreased spironolactone group compared rdn group h daytime night time periods 
+moreover h sbp control rate percentage patients h sbp less mmhg months spironolactone group patient rdn group achieved h sbp lower mmhg p 
+office blood pressure heart rate regards office sbp dbp office ambulatory heart rate statistically significant differences observed group comparisons table 
+moreover patients controlled office sbp journal hypertension www jhypertension com oliveras et al 
+screened patients suspected rh excluded ineligible renal artery anatomy h sbp mmhg given consent withdrawal patients randomly assigned patients allocated rdn group patients allocated spironolactone group consent withdrawal abpm final data included intention treat population included intention treat population early discontinuation due hyperkalemia completed study completed study figure patients gave signed consent summarized status month 
+three patients two rdn group one spironolactone group missed primary endpoint 
+remaining patients included intention treat analyses 
+abpm ambulatory blood pressure monitoring rdn renal denervation rh resistant hypertension 
+mmhg n rdn group n spironolactone group statistically significant differences groups p 
+safety issues table shows main changes potassium renal laboratory parameters 
+mean baseline adjusted variation egfr months showed decrease spirono lactone group significantly profound changes egfr rdn group 
+thus mean baseline adjusted difference two ml min ci p groups spironolactone versus rdn egfr hand baseline adjusted serum potassium levels significantly increased spironolactone group comparison changes rdn p mean baseline adjusted difference groups expected 
+one patient spironolactone group drew study hyperkalaemia prespecified protocol 
+another patient could reach dose mg spironolactone high serum potassium levels 
+regards changes egfr number patients least decrease baseline egfr months rdn spironolac tone groups respectively 
+thus acute renal failure develop patient 
+regards adverse events mild groin hematoma n transient symptomatic hypotension n developed five patients rdn group one patient spironolactone group reported hyponatre mia muscle cramps transient symptomatic hypoten sion 
+none patient withdrew study adverse events 
+www jhypertension com volume number september spironolactone versus renal denervation table 
+patient demographics baseline laboratory blood pressure characteristics renal denervation n spironolactone n variable clinical characteristics age year sex males n caucasian n bmi kg abdominal circumference cm current cigarette smokers n diabetes n dyslipidaemia n previous cvd n duration hypertension year antihypertensive drugs n laboratory parameters serum creatinine mmol l egfr ml min per serum potassium mmol l uae mg g microalbuminuria n bp values ambulatory bp h sbp mmhg h dbp mmhg h pp mmhg h hr bpm daytime sbp mmhg daytime dbp mmhg daytime pp mmhg daytime hr bpm night time sbp mmhg night time dbp mmhg night time pp mmhg night time hr bpm office bp office sbp mmhg office dbp mmhg office pp mmhg office hr bpm p bp blood pressure bpm beats per minute cvd cardiovascular disease egfr estimated glomerular filtration rate hr heart rate ht hypertension pp pulse pressure uae urinary albumin excretion 
+remaining data given mean sd percentages 
+changes antihypertensive treatment overall group statistically signifi cant differences regards changes number dose drugs p 
+total patients rdn group n n patients spironolactone group remained baseline antihypertensive regimen months 
+characteristics antihypertensive treatment baseline variable ras blockers n blockers n b blockers n calcium channel blockers n diureticsa n centrally acting drugs n renal denervation n spironolactone n ras renin angiotensin system 
+discussion main finding denervhta study patients true resistant hypertension addition spironolactone baseline antihypertensive drug therapy reduced h sbp months rdn 
+correspondingly month h sbp control rate significantly higher group added spironolac tone 
+percentage patients needed add withdraw antihypertensive drugs similar groups differences occurrence self reported adverse events 
+regards office bp decrease sbp dbp baseline months significantly differ groups 
+initial studies showed decrease mmhg office sbp months rdn patients resistant hypertension 
+however suffered various shortcomings including absence control group different therapeutic strategy beyond mainten ance basal drug treatment lack h abp assessment reliable tool evaluate changes bp office bp 
+quite well designed journal hypertension www jhypertension com oliveras et al 
+mean baseline adjusted changes office ambulatory blood pressure variables months renal denervation n spironolactone n variable h sbp mmhg h dbp mmhg h pp mmhg h hr bpm day sbp mmhg day dbp mmhg day pp mmhg day hr bpm night sbp mmhg night dbp mmhg night pp mmhg night hr bpm office sbp mmhg office dbp mmhg office pp mmhg office hr bpm change months mean ci change months mean ci bp blood pressure bpm beats per minute ci confidence interval hr heart rate 
+mean baseline adjusted difference ci two groups months spironolactone versus rdn p symplicity htn study patients random ized rdn sham procedure failed demonstrate group statistically significant differences sbp decrease neither assessed office bp h abp recording 
+studies compared rdn sham procedure treat patients resistant hyper tension trials compared rdn versus adjusted antihypertensive drug treatment 
+taking together shown recent meta analysis although studies suggested rdn superior appro priate pharmacological strategy becomes necessary fur ther confirmation high heterogeneity among study populations 
+regards role spironolactone treatment patients resistant hypertension recently published results pathway trial shown addition spironolactone mg far effective reduce home sbp addition placebo bisoprolol doxazosin patients resistant hypertension 
+otherwise trials mentioned comparing rdn intensified pharmacological treatment permitted prespeci fied inclusion spironolactone part antihypertensive schedule pharmacological group treatment 
+however none planned head head comparison rdn versus spironolactone exclusive add therapy 
+therefore designed denervhta study determine group differ ences changes h sbp patients randomized receive rdn addition spironolactone anti hypertensive drug treatment scheduled time 
+knowledge first randomized clinical trial compares head head two different concrete treatments added previous antihypertensive drug regimen addition single drug spironolactone addition device based treatment rdn 
+furthermore h bp considered reliable way measure bp therefore planned evaluate changes h sbp primary endpoint 
+results clearly favoured addition spironolactone baseline antihyper tensive treatment facing challenge reducing high bp achieving bp control patients resistant hypertension 
+several factors may justify higher bp reduction spironolactone group 
+main reason may study therapeutic algorithm table 
+mean baseline adjusted changes renal function parameters months renal denervation n spironolactone n variable serum creatinine mmol l egfr ml min per serum potassium mmol l change months mean ci change months mean ci ci confidence intervals egfr estimated glomerular filtration rate rdn renal denervation 
+mean baseline adjusted difference ci two groups months spironolactone versus rdn p www jhypertension com volume number september spironolactone group forced titration mg whenever possible 
+higher dose used aforemen tioned studies predefined dosage mg 
+fact important role spironolactone achieve bp control patients difficult treat resistant hyper tension increasingly acknowledged 
+previously referred pathway trial almost patients achieved bp control receiving spironolac tone percentage close found study 
+according protocol denervhta trial secondary causes hypertension including primary aldos teronism ruled appropriate studies 
+ever admitted many patients resistant hypertension aldosterone excess dysregulation either hormone epithelial sodium channel even modestly elevated nearly normal levels aldoster one believed inappropriately high likely contribute volume overload state 
+way previously shown trials addition spironolactone reduced office sbp mmhg patients resistant hypertension irre spective whether primary aldosteronism 
+denervhta study found decrease around mmhg office sbp quite similar bp reduction 
+believe unlikely undetected primary aldosteronism reason higher bp decrease spironolactone group 
+regards rdn procedures carried interventionalist avoid intercentre intracentre variability 
+operator received appropriate training treatment acquired skills performed several procedures initiating trial 
+observed changes h sbp successively denervated patients study supplementary material figure http links lww com hjh makes unlikely operating learning curve affects success rdn procedures line analysed results symplicity htn trial 
+unfortunately reliable perioperative marker successful rdn exists 
+even though number ablations failed predict bp response rdn leading trials median number shots study considered within range better decreasing bp results 
+decreases office h sbp also quite similar achieved trials 
+note differences groups regarding decreases office bp values reach statistical significance 
+appears white coat phenomena specially highly prevalent patients resistant hyper tension showing reduction office bp values parallel h bp decrease 
+line results three open rdn trials indicate white coat effect must drop mmhg baseline final examination implying alerting response almost completely dis appears suggesting effect could mediated renal nerves 
+could least partly explain favourable results rdn observed first studies symplicity htn htn main data referred office bp 
+authors also reported effect abp monitoring patients pseudoresistant hypertension whereas reduction office bp similar extent patients spironolactone versus renal denervation true resistant hypertension observed 
+attending secondary endpoints found decrease mmhg night time sbp rdn group significantly different aldosterone group 
+pointed rdn appears unmask white coat phenomena patients resistant hyperten sion 
+accordingly partial component true resistant hypertension patients could reflected relatively higher drop night time bp 
+suggested occur symplicity htn trial could also explanation results regards night time bp reduction 
+one potential limitation relatively small size denervhta study cohort 
+however publication results symplicity htn trial observation trial spironolactone appeared superior rdn decreasing bp led perform corresponding interim analyses subsequently stop inclusion patients 
+post hoc power sample size calculation current number enrolled patients shows considering difference h sbp lowering mmhg bilateral error statistical power average sd mmhg 
+must acknowledge risk patients low gfr high baseline serum potassium excluded study limits advantage sprinolactone group patients certain clinical features 
+anyway must remark results checked months thereafter interest closely follow renal function serum potassium levels cannot discard possible adverse results neither possibility poor long term adherence spirono lactone 
+another possible limitation cannot strictly ensure therapeutic adherence even testing hay nes sackett test enter study 
+however believe limitation largely offset strict bp inclusion criteria beyond precise definition resistant hyper tension 
+strength trial patients main tained baseline antihypertensive drug regimen least months prior enrol study consequently ensur ing true resistance pharmacological treatment 
+finally results cannot extrapolated clinical settings patients mild hypertension worse renal function generalizable rdn catheters devices mineralocorticoid receptor blockers 
+conclusion found patients true resistant hypertension addition mg daily spironolactone effective rdn reduce h sbp dbp months 
+light results believe spironolactone considered fourth antihypertensive drug prescribe deemed well tolerated patients diagnosed true resistant hypertension even though mandatory closely monitoring renal function patients carefully uptitrate drug 
+acknowledgements work supported spanish health authority ec 
+funder role study design journal hypertension www jhypertension com oliveras et al 
+collection analysis interpretation data writing report decision submit report publication 
+investigators list pedro armario md francina barbosa md angela barrera md albert clara md alejandro de la sierra md anna faura rn lidia gonza lez md tai mooi ho rn omar ibrik md carme llort md carmen martin rn meritxell mellado md lluis molina md anna oliveras md julia pareja md julio pascual md carmen roman rn laia sans md marta serra md susana va zquez md maria vera rn ernest vinyoles md 
+contributes scientific advisory medtronic ibe rica since february 
+clinical trial registration url http www clinical trials gov 
+de la sierra segura j banegas jr gorostidi de la cruz jj armario p et al 
+clinical features patients resistant hypertension classified basis ambulatory blood pressure monitoring 
+daugherty sl powers jd magid dj tavel hm masoudi fa margolis kl et al 
+incidence prognosis resistant hypertension hyper tensive patients 
+calhoun da booth jn rd oparil irvin mr shimbo lackland dt et al 
+refractory hypertension determination prevalence risk fac tors comorbidities large population based cohort 
+de la sierra banegas jr oliveras gorostidi segura j de la cruz jj et al 
+clinical differences resistant hypertensives patients treated controlled three less drugs 
+sim jj bhandari sk shi j reynolds k calhoun da kalantar zadeh k jacobsen sj 
+comparative risk renal cardiovascular mortality outcomes controlled uncontrolled resistant nonresistant hy pertension 
+krum h schlaich whitbourn r sobotka pa sadowski j bartus k et al 
+catheter based renal sympathetic denervation resistant hypertension multicentre safety proof principle cohort study 
+symplicity htn investigatorsesler md krum h sobotka pa schlaich mp schmieder bo hm 
+renal sympathetic denervation patients treatment resistant hypertension symplicity htn trial randomised controlled trial 
+bhatt dl kandzari de neill ww agostino r flack jm katzen bt et al symplicity htn investigators 
+controlled trial renal denervation resistant hypertension 
+pimenta e calhoun da oparil mechanisms treatment resistant hypertension 
+va clav k j sedla k r plachy navra til k pla sek j jarkovsky j et al 
+addition spironolactone patients resistant arterial hyperten sion aspirant randomised double blind placebo controlled trial 
+williams b macdonald tm morant webb dj sever p mcinnes g et al british hypertension society pathway studies group 
+spiro nolactone versus placebo bisoprolol doxazosin determine optimal treatment drug resistant hypertension pathway randomised double blind crossover trial 
+haynes rb taylor dw sackett dl gibson es bernholz cd mukher jee j 
+simple clinical measurements detect patient noncompliance 
+joint uk societies consensus statement renal denervation resistant hypertension 
+caulfield de belder cleveland collier deanfield j gray h et al 
+behalf british hypertension society british cardiovascular intervention society british society interventional radiology national institute clinical outcomes research british cardiovascular society renal association 
+https www nice org uk guid ance ipg 
+krum h schlaich mp sobotka pa bo hm mahfoud f rocha singh k et al 
+percutaneous renal denervation patients treatment resistant hypertension final year report symplicity htn study 
+esler md bo hm sievert h rump cl schmieder krum h et al 
+catheter based renal denervation treatment patients treatment resistant hypertension month results sym plicity htn randomised clinical trial 
+desch okon heinemann kulle k ro hnert k sonnabend et al 
+randomised sham controlled trial renal sympathetic dener vation mild resistant hypertension 
+fadl elmula fe hoffmann p larstorp ac fossum e brekke kjeldsen se et al 
+adjusted drug treatment superior renal sym pathetic denervation patients true treatment resistant hyper tension 
+rosa j widimsky p tous ek p petra k c urila k waldauf p et al 
+randomised comparison renal denervation versus intensified phar macotherapy including spironolactone true resistant hypertension six month results prague study 
+azizi sapoval gosse p gosse p chatellier g renal denerva tion hypertension denerhtn investigators 
+optimum stepped care standardised antihypertensive treatment renal denervation resistant hypertension denerhtn multicentre open label randomised controlled trial 
+pancholy sb shantha gp patel tm sobotka pa kandzari de 
+meta analysis effect renal denervation blood pressure pulse pressure patients resistant systemic hypertension 
+siu al u preventive services task force recommendation state ment 
+lohmeier te liu b hildebrandt da cates aw georgakopoulos irwin ed 
+global renal specific sympathoinhibition aldosterone hypertension 
+efficacy low dose spiro nolactone subjects resistant hypertension 
+dahal k kunwar rijal j alqatahni f panta r ishak n russell rp 
+effects aldosterone antagonists patients resistant hyper tension meta analysis randomised nonrandomised studies 
+briasoulis bakris g renal denervation symplicity htn go 
+hameed pucci martin u watkin r doshi freedman j et al 
+renal denervation patients uncontrolled hypertension confirmed adherence antihypertensive medications 
+size blood pressure reduction renal denervation insights meta analysis antihyperten sive drug trials patients focus trial design con verge report 
+mahfoud f ukena c schmieder cremers b rump lc vonend et al 
+ambulatory blood pressure changes renal sympathetic denervation patients resistant hypertension 
+bakris gl townsend rr liu cohen sa agostino r flack jm et al symplicity htn investigators 
+impact renal denervation h ambulatory blood pressure 
+www jhypertension com volume number september reviewer summary evaluation reviewer study strengthened randomized prospective design lengthy follow 
+study weaknesses include done unblinded study relatively small cohort size 
+study novel directly comparing antihypertensive efficacy spironolactone versus renal nerve denervation rnd findings provocative finding former much better 
+add literature indicating superiority pharmacologic approaches highlights relatively modest effects rnd least cohort 
+spironolactone versus renal denervation referee small randomized open label study suggests patients resistant hypertension spironolactone mg day effective reducing ambulatory blood pressure months follow compared renal denerva tion using single electrode ablation catheter 
+findings support utility aldosterone antagonists fourth line treatment resistant hypertension also highlight need closely monitor renal function 
+whether sufficient renal denervation actually achieved interventional group could determined 
+ongoing sham controlled studies multi electrode devices clarify whether complete denervation match blood pres sure lowering efficacy spironolactone 
