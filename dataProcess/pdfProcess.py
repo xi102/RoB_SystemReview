@@ -1,8 +1,13 @@
-from pdfminer.pdfparser import PDFParser, PDFDocument
+# from pdfminer.pdfparser import PDFParser, PDFDocument
+from pdfminer.pdfparser import PDFParser
+from pdfminer.pdfdocument import PDFDocument
+from pdfminer.pdfpage import PDFPage
+
 from pdfminer.pdfinterp import PDFResourceManager, PDFPageInterpreter
 from pdfminer.layout import LAParams, LTTextBoxHorizontal
 from pdfminer.converter import PDFPageAggregator
-from pdfminer.pdfinterp import PDFTextExtractionNotAllowed
+# from pdfminer.pdfinterp import PDFTextExtractionNotAllowed
+from pdfminer.pdfpage import PDFTextExtractionNotAllowed
 import os, re
 from nltk.tokenize import sent_tokenize
 import nltk
